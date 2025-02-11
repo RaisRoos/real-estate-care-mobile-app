@@ -1,4 +1,5 @@
 # Real Estate Care Applicatie
+![Real estate care mobile app](https://github.com/RaisRoos/real-estate-care-mobile-app/blob/main/realestatecaremockup.png)
 ## Introductie
 Dit project is een onderdeel van de eindopdracht voor Front End development en is bedoeld om de opgedane ervaring en kunde  te demonstreren. Dit onderdeel bestaat uit het maken van een mobile app binnen de vastgoedbranche.
 De **Real Estate Care** is een mobile applicatie. Deze app is ontwikkeld om de reguliere werkzaamheden van vastgoedinspecteurs te digitaliseren.
@@ -66,7 +67,7 @@ Aangebrachte wijzigingen wanneer de app offline is, worden automatisch gesynchro
 De inspectionsqueue wordt vervolgens geleegd.
 
 De app controleert voortdurend de netwerkstatus en past zich dynamisch aan, zodat inspecteurs altijd door kunnen werken, ongeacht de netwerkverbinding.
-
+![workflow algoritme](https://github.com/RaisRoos/real-estate-care-mobile-app/blob/main/workflow.png)
 ### Donkere modus
 Eerder is al aangegeven dat de app beschikt over een donkere modus. Via instellingen kunnen de gebruikers makkelijk schakelen van een lichte naar een donkere weergave.
 
@@ -128,7 +129,7 @@ In de Stores map wordt de globale applicatiestatus beheerd met Pinia.
 ## Installatie
 Volg deze stappen om de applicatie lokaal te installeren en te gebruiken:
  1. Voorbereiding
-- Clone de repository: `git clone `
+- Clone de repository: `git clone https://github.com/RaisRoos/real-estate-care-mobile-app.git`
 -Installeer de benodigde dependencies:  `npm install`
 
 2. Firebase Configuratie
