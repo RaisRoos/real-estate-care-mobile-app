@@ -1,0 +1,174 @@
+[
+    {
+        "id": "001",
+        "task": "Inspectie van vocht- en schimmelbeschadiging door lekkage",
+        "date": "2024-09-12",
+        "client": "Huurdersvereniging A",
+        "address": "Tomatenstraat 10, Den Haag",
+        "status": "Uitgevoerd",
+        "inspector": "John Doe",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-1.pdf",
+            "documentatie": "modificaties-voorbeeld-3.pdf"
+        },
+        "damage": [
+            {
+                "id": "003",
+                "location": "Kelder",
+                "new": "nee",
+                "selectedDate": "2024-09-12",
+                "type": "Slijtage",
+                "urgent": "ja",
+                "description": "Vochtplekken en schimmelvorming door lekkage"
+            }
+        ],
+        "maintenance": [],
+        "installations": [],
+        "modifications": []
+    },
+    {
+        "id": "002",
+        "task": "Inspectie van defecte thermostaat",
+        "date": "2024-12-01",
+        "client": "Woningcorporatie B",
+        "address": "Aardappelweg 20, Amsterdam",
+        "status": "Openstaand",
+        "inspector": "",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-2.pdf",
+            "documentatie": "modificaties-voorbeeld-1.pdf"
+        },
+        "damage": [],
+        "maintenance": [],
+        "installations": [],
+        "modifications": []
+    },
+    {
+        "id": "003",
+        "task": "Inspectie van verwarmingsinstallatie",
+        "date": "2024-10-15",
+        "client": "Huurdersvereniging C",
+        "address": "Peperstraat 5, Utrecht",
+        "status": "Uitgevoerd",
+        "inspector": "John Doe",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-3.pdf",
+            "documentatie": "modificaties-voorbeeld-3.pdf"
+        },
+        "damage": [],
+        "maintenance": [],
+        "installations": [
+            {
+                "id": "004",
+                "location": "Technische ruimte",
+                "type": "Verwarming",
+                "reportedIssues": "Onregelmatige verwarming",
+                "approved": "nee",
+                "remarks": "Ketel moet vervangen worden."
+            }
+        ],
+        "modifications": []
+    },
+    {
+        "id": "004",
+        "task": "Onderhoud aan dakgoten",
+        "date": "2024-09-25",
+        "client": "Woningcorporatie D",
+        "address": "Bananenlaan 12, Rotterdam",
+        "status": "Uitgevoerd",
+        "inspector": "John Doe",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-2.pdf",
+            "documentatie": "modificaties-voorbeeld-2.pdf"
+        },
+        "damage": [],
+        "maintenance": [
+            {
+                "id": "006",
+                "location": "Dakgoten",
+                "type": "Leidingwerk",
+                "urgent": "ja",
+                "costEstimate": "500 - 1500"
+            }
+        ],
+        "installations": [],
+        "modifications": []
+    },
+    {
+        "id": "005",
+        "task": "Controle van elektrische installatie",
+        "date": "2024-11-05",
+        "client": "Huurdersvereniging E",
+        "address": "Limoenpad 8, Rotterdam",
+        "status": "Uitgevoerd",
+        "inspector": "John Doe",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-3.pdf",
+            "documentatie": "modificaties-voorbeeld-2.pdf"
+        },
+        "damage": [],
+        "maintenance": [],
+        "installations": [],
+        "modifications": [
+            {
+                "id": "008",
+                "location": "Slaapkamer",
+                "performedBy": "Huurder",
+                "description": "Toevoegen van extra stopcontacten",
+                "actionToBeTaken": "Laten keuren",
+                "remarks": "Veiligheid moet worden gecontroleerd"
+            }
+        ]
+    },
+    {
+        "id": "006",
+        "task": "Controle van lekkage in de badkamer",
+        "date": "2024-11-25",
+        "client": "Woningcorporatie F",
+        "address": "Gemberstraat 3, Leiden",
+        "status": "Openstaand",
+        "inspector": "",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-1.pdf",
+            "documentatie": "modificaties-voorbeeld-2.pdf"
+        },
+        "damage": [],
+        "maintenance": [],
+        "installations": [],
+        "modifications": []
+    },
+    {
+        "id": "007",
+        "task": "Inspectie van verouderde dakbedekking",
+        "date": "2024-12-02",
+        "client": "Huurdersvereniging G",
+        "address": "Kaneelstraat 9, Delft",
+        "status": "Openstaand",
+        "inspector": "",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-2.pdf",
+            "documentatie": "modificaties-voorbeeld-2.pdf"
+        },
+        "damage": [],
+        "maintenance": [],
+        "installations": [],
+        "modifications": []
+    },
+    {
+        "id": "008",
+        "task": "Controle van isolatie van buitenmuren",
+        "date": "2024-12-08",
+        "client": "Woningcorporatie H",
+        "address": "Citroenstraat 10, Den Haag",
+        "status": "Openstaand",
+        "inspector": "",
+        "files": {
+            "testProcedure": "testprocedure-voorbeeld-1.pdf",
+            "documentatie": "modificaties-voorbeeld-3.pdf"
+        },
+        "damage": [],
+        "maintenance": [],
+        "installations": [],
+        "modifications": []
+    }
+]
